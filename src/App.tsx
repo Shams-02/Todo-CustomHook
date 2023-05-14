@@ -12,7 +12,6 @@ function App() {
     fetchData();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-  console.log(data);
 
   return (
     <main className="max-w-4xl mx-auto px-5">
